@@ -1,0 +1,261 @@
+﻿id_venda;marca;modelo;categoria;ano_fabricacao;ano_modelo;cor;combustivel;cambio;quilometragem;placa;data_compra;valor_compra;despesas;total_investido;valor_fipe;data_venda;valor_venda;lucro;dias_em_estoque;forma_pagamento;vendedor;cliente;cidade_cliente;status
+1;Toyota;Corolla;Sedan;2020;2020;Branco;Flex;Automatico;73481;LVM6S38;2025-01-01;80600;400;81000;90700;;;;536;;;;;Em estoque
+2;Nissan;Kicks;SUV;2021;2021;Prata;Flex;Manual;56891;ULB2B99;2025-01-07;65700;1300;67000;78400;2025-01-24;77900;10900;17;Financiamento;Roberto Alves;Tatiana Teixeira;Colombo;Vendido
+3;Nissan;Kicks;SUV;2021;2022;Azul;Diesel;Automatico;58447;WOP2C90;2025-01-10;73000;1600;74600;85600;2025-02-27;82700;8100;48;Consorcio;Fernanda Lima;Tatiana Carvalho;Londrina;Vendido
+4;Fiat;Toro;Picape;2024;2024;Cinza;Flex;Manual;20137;JHM3J95;2025-01-11;117900;4100;122000;131400;2025-03-05;129100;7100;53;Consorcio;Roberto Alves;Helena Rocha;Londrina;Vendido
+5;Nissan;Kicks;SUV;2018;2019;Azul;Flex;Manual;98077;GOT7P23;2025-01-20;56300;4300;60600;64800;;;;517;;;;;Em estoque
+6;Jeep;Commander;SUV;2022;2022;Cinza;Flex;Automatico;45974;NJZ7L70;2025-01-23;131700;2100;133800;165200;2025-03-28;166400;32600;64;Financiamento;Juliana Souza;Helena Santos;Pinhais;Vendido
+7;Chevrolet;S10;Picape;2019;2019;Prata;Flex;Automatico;81202;PDN7B14;2025-01-30;100200;1500;101700;117400;;;;507;;;;;Em estoque
+8;Hyundai;Creta;SUV;2022;2023;Vermelho;Flex;Manual;48277;EFY9B14;2025-02-01;87200;3400;90600;108600;2025-02-17;107100;16500;16;Troca + Financiamento;Carlos Eduardo;Joana Rocha;Ponta Grossa;Vendido
+9;Nissan;Versa;Sedan;2023;2023;Cinza;Flex;Automatico;31049;AAV3M91;2025-02-03;62800;800;63600;78800;2025-03-14;77300;13700;39;Troca + Financiamento;Juliana Souza;Fabiana Costa;Sao Jose dos Pinhais;Vendido
+10;Renault;Kwid;Hatch;2020;2020;Prata;Flex;Automatico;83034;CKT9P06;2025-02-04;29900;2000;31900;34300;2025-02-27;33500;1600;23;Consorcio;Patricia Gomes;Carla Ferreira;Pinhais;Vendido
+11;Volkswagen;Virtus;Sedan;2022;2022;Vermelho;Diesel;Automatico;38101;LDS7W12;2025-02-04;58100;1700;59800;66200;;;;502;;;;;Em estoque
+12;Jeep;Commander;SUV;2021;2021;Vermelho;Gasolina;Manual;79702;NEB4L05;2025-02-06;127600;3900;131500;140900;;;;500;;;;;Em estoque
+13;Nissan;Frontier;Picape;2019;2019;Cinza;Flex;Manual;80455;QVH9U28;2025-02-11;116600;3400;120000;128100;2025-04-03;123900;3900;51;Troca + Financiamento;Roberto Alves;Diego Rocha;Colombo;Vendido
+14;Hyundai;Tucson;SUV;2021;2021;Prata;Diesel;Automatico;68749;QQZ4F52;2025-02-26;92800;3100;95900;113000;2025-04-28;114100;18200;61;Financiamento;Juliana Souza;Diego Silva;Pinhais;Vendido
+15;Honda;City;Sedan;2017;2018;Prata;Gasolina;Automatico;102823;ZXW5S05;2025-02-27;45800;1800;47600;54000;2025-06-06;55400;7800;99;Financiamento;Roberto Alves;Nelson Ferreira;Pinhais;Vendido
+16;Toyota;Hilux;Picape;2024;2025;Prata;Flex;Automatico;0;POA3V84;2025-02-28;224600;4300;228900;257800;;;;478;;;;;Em estoque
+17;Honda;HR-V;SUV;2022;2023;Branco;Flex;Automatico;52777;CZI4E94;2025-03-04;107600;1100;108700;122400;2025-03-14;122700;14000;10;Consorcio;Fernanda Lima;Wesley Silva;Araucaria;Vendido
+18;Toyota;Yaris;Hatch;2022;2022;Branco;Flex;Automatico;72740;PQU5T69;2025-03-06;58000;2500;60500;67400;2025-06-07;68300;7800;93;Consorcio;Roberto Alves;Mariana Ferreira;Colombo;Vendido
+19;Toyota;Corolla;Sedan;2023;2023;Prata;Flex;Automatico;43403;MIC3S53;2025-03-15;103200;1400;104600;123400;2025-05-22;118800;14200;68;Financiamento;Fernanda Lima;Tatiana Souza;Ponta Grossa;Vendido
+20;Renault;Logan;Sedan;2024;2024;Branco;Flex;Automatico;18965;LYI1E12;2025-03-17;52800;3400;56200;61500;2025-05-27;61500;5300;71;Financiamento;Juliana Souza;Lucas Ferreira;Sao Jose dos Pinhais;Vendido
+21;Chevrolet;Tracker;SUV;2019;2020;Prata;Gasolina;Automatico;70930;ASS6Y93;2025-03-19;67100;1800;68900;72100;;;;459;;;;;Em estoque
+22;Hyundai;HB20;Hatch;2019;2020;Azul;Flex;Manual;79238;XQA0A30;2025-03-20;37500;1100;38600;46700;2025-04-23;47600;9000;34;Troca + Financiamento;Carlos Eduardo;Fabiana Rodrigues;Sao Jose dos Pinhais;Vendido
+23;Nissan;Versa;Sedan;2021;2022;Prata;Flex;Automatico;71148;OQP9X56;2025-03-21;62300;3200;65500;70600;2025-05-22;70100;4600;62;Troca + Financiamento;Roberto Alves;Wesley Silva;Ponta Grossa;Vendido
+24;Renault;Oroch;Picape;2025;2025;Vermelho;Flex;Automatico;12248;MNF7U82;2025-03-28;92900;2200;95100;108200;2025-05-03;103800;8700;36;Consorcio;Fernanda Lima;Eduardo Carvalho;Maringa;Vendido
+25;Fiat;Mobi;Hatch;2024;2025;Vermelho;Diesel;Automatico;15345;OML3F69;2025-03-28;51100;600;51700;62100;2025-06-01;63400;11700;65;Consorcio;Juliana Souza;Olivia Ribeiro;Pinhais;Vendido
+26;Chevrolet;Tracker;SUV;2019;2019;Vermelho;Gasolina;Automatico;88022;GRY3W46;2025-03-29;61000;2400;63400;70300;2025-06-15;69800;6400;78;A vista;Carlos Eduardo;Rafaela Carvalho;Pinhais;Vendido
+27;Chevrolet;Cruze;Sedan;2020;2020;Prata;Gasolina;Automatico;79572;NFT2Z33;2025-03-31;57900;3300;61200;68000;2025-05-14;70000;8800;44;A vista;Juliana Souza;Helena Souza;Guarapuava;Vendido
+28;Jeep;Renegade;SUV;2021;2021;Cinza;Flex;Automatico;48537;BUS9T17;2025-04-02;74200;1000;75200;84500;2025-05-27;83100;7900;55;A vista;Marcos Pereira;Mariana Rodrigues;Guarapuava;Vendido
+29;Chevrolet;Tracker;SUV;2021;2022;Prata;Gasolina;Automatico;45248;GKT7Q20;2025-04-03;76400;1600;78000;93400;2025-06-28;92500;14500;86;Consorcio;Roberto Alves;Tatiana Barbosa;Curitiba;Vendido
+30;Jeep;Compass;SUV;2023;2024;Branco;Flex;Manual;32280;BJL5N11;2025-04-03;130800;2300;133100;150500;2025-06-29;153900;20800;87;Consorcio;Juliana Souza;Paulo Rodrigues;Araucaria;Vendido
+31;Volkswagen;Gol;Hatch;2020;2020;Azul;Diesel;Automatico;82827;UZF1E02;2025-04-06;26100;1200;27300;31800;2025-06-15;31100;3800;70;Consorcio;Carlos Eduardo;Nelson Costa;Araucaria;Vendido
+32;Nissan;Versa;Sedan;2024;2025;Branco;Flex;Manual;21464;WSP4B14;2025-04-08;78600;3200;81800;94000;;;;439;;;;;Em estoque
+33;Jeep;Renegade;SUV;2024;2024;Prata;Diesel;Automatico;23288;NRV7S37;2025-04-10;90700;2000;92700;110900;2025-06-04;108400;15700;55;Financiamento;Roberto Alves;Vinicius Souza;Cascavel;Vendido
+34;Nissan;Versa;Sedan;2023;2024;Cinza;Flex;Automatico;13148;BFM0M47;2025-04-11;68500;2600;71100;85700;2025-07-22;88100;17000;102;Consorcio;Patricia Gomes;Helena Oliveira;Maringa;Vendido
+35;Volkswagen;Saveiro;Picape;2021;2022;Cinza;Flex;Manual;59488;AWX0S81;2025-04-11;55600;2300;57900;62800;2025-04-27;60900;3000;16;Troca + Financiamento;Juliana Souza;Carla Rodrigues;Guarapuava;Vendido
+36;Hyundai;Tucson;SUV;2024;2024;Cinza;Gasolina;Automatico;11259;JTZ8A84;2025-04-13;136200;2700;138900;144700;2025-06-02;148300;9400;50;Financiamento;Marcos Pereira;Helena Ferreira;Araucaria;Vendido
+37;Chevrolet;Onix Plus;Sedan;2021;2021;Preto;Flex;Automatico;59368;EHQ6S22;2025-04-13;50500;2000;52500;53700;2025-04-26;54000;1500;13;A vista;Marcos Pereira;Bruno Ferreira;Curitiba;Vendido
+38;Nissan;Frontier;Picape;2025;2026;Cinza;Flex;Manual;0;CCB2Z48;2025-04-17;226600;300;226900;251000;2025-06-30;253300;26400;74;Financiamento;Fernanda Lima;Carla Rocha;Pinhais;Vendido
+39;Nissan;Versa;Sedan;2020;2020;Vermelho;Diesel;Automatico;74220;KRK5N65;2025-04-17;49800;1100;50900;57000;2025-04-20;55000;4100;3;Troca + Financiamento;Fernanda Lima;Lucas Martins;Pinhais;Vendido
+40;Renault;Oroch;Picape;2025;2025;Branco;Flex;Manual;12621;IHQ8R99;2025-04-22;92000;300;92300;109200;2025-05-21;109400;17100;29;Consorcio;Carlos Eduardo;Nelson Barbosa;Ponta Grossa;Vendido
+41;Jeep;Commander;SUV;2021;2021;Cinza;Flex;Automatico;60470;UFF6M09;2025-04-22;119300;4100;123400;149000;2025-07-20;144500;21100;89;Consorcio;Carlos Eduardo;Fabiana Ferreira;Cascavel;Vendido
+42;Renault;Oroch;Picape;2019;2019;Azul;Flex;Automatico;94176;MQY0G47;2025-04-22;51900;800;52700;57800;2025-04-30;58700;6000;8;Consorcio;Carlos Eduardo;Helena Carvalho;Cascavel;Vendido
+43;Jeep;Commander;SUV;2023;2023;Vermelho;Flex;Manual;39520;GJG2Y44;2025-04-24;149300;2300;151600;172900;2025-07-13;173600;22000;80;Consorcio;Roberto Alves;Joana Silva;Colombo;Vendido
+44;Jeep;Commander;SUV;2022;2022;Vermelho;Flex;Manual;34473;TUM6Q51;2025-04-26;144100;2800;146900;155400;2025-05-13;156700;9800;17;A vista;Juliana Souza;Fabiana Silva;Ponta Grossa;Vendido
+45;Nissan;Kicks;SUV;2019;2020;Cinza;Gasolina;Automatico;83076;LRV2Y71;2025-04-26;58600;4400;63000;71700;2025-04-29;71800;8800;3;Financiamento;Carlos Eduardo;Ana Ferreira;Ponta Grossa;Vendido
+46;Fiat;Pulse;SUV;2019;2019;Prata;Flex;Automatico;93546;RUC4R76;2025-04-26;51600;1200;52800;58000;2025-05-23;58700;5900;27;Consorcio;Roberto Alves;Eduardo Carvalho;Sao Jose dos Pinhais;Vendido
+47;Ford;Ranger;Picape;2021;2021;Azul;Gasolina;Automatico;59525;GNO3N57;2025-04-28;130400;1400;131800;150400;;;;419;;;;;Em estoque
+48;Jeep;Commander;SUV;2020;2021;Cinza;Flex;Manual;64277;QNA4Z76;2025-04-29;126900;900;127800;147900;2025-05-10;146100;18300;11;Consorcio;Patricia Gomes;Tatiana Souza;Maringa;Vendido
+49;Chevrolet;S10;Picape;2023;2023;Preto;Diesel;Automatico;24013;RPY8Z33;2025-05-01;147600;2000;149600;164900;2025-07-11;159600;10000;71;Troca + Financiamento;Patricia Gomes;Rafaela Oliveira;Londrina;Vendido
+50;Nissan;Kicks;SUV;2022;2022;Prata;Gasolina;Automatico;60159;YJM7R54;2025-05-01;73100;2200;75300;89600;2025-06-13;90500;15200;43;Consorcio;Marcos Pereira;Wesley Rocha;Colombo;Vendido
+51;Renault;Kwid;Hatch;2020;2021;Prata;Flex;Automatico;57494;NJF0R73;2025-05-01;33000;3500;36500;36600;2025-07-27;37100;600;87;Troca + Financiamento;Roberto Alves;Wesley Souza;Araucaria;Vendido
+52;Chevrolet;Spin;Minivan;2020;2021;Cinza;Diesel;Automatico;76485;SNJ9T09;2025-05-02;57300;1100;58400;72000;2025-06-06;70800;12400;35;Consorcio;Roberto Alves;Wesley Souza;Cascavel;Vendido
+53;Honda;HR-V;SUV;2025;2025;Prata;Gasolina;Automatico;9144;MQB0B25;2025-05-02;130500;1300;131800;149200;2025-09-12;142900;11100;133;Financiamento;Fernanda Lima;Lucas Carvalho;Ponta Grossa;Vendido
+54;Hyundai;HB20S;Sedan;2024;2025;Cinza;Flex;Automatico;13309;BNX5T40;2025-05-08;68100;2000;70100;79500;2025-05-14;77500;7400;6;Consorcio;Fernanda Lima;Igor Carvalho;Cascavel;Vendido
+55;Jeep;Renegade;SUV;2021;2021;Prata;Flex;Automatico;59789;YEZ9A42;2025-05-09;71400;4100;75500;80300;2025-06-30;77600;2100;52;Financiamento;Marcos Pereira;Tatiana Souza;Guarapuava;Vendido
+56;Jeep;Compass;SUV;2024;2024;Branco;Flex;Automatico;24830;GAV0U33;2025-05-13;133900;1700;135600;153900;2025-06-06;158100;22500;24;A vista;Fernanda Lima;Bruno Carvalho;Colombo;Vendido
+57;Chevrolet;Spin;Minivan;2023;2023;Branco;Flex;Manual;43239;OOA6G24;2025-05-14;74800;900;75700;82300;2025-06-28;81400;5700;45;Consorcio;Fernanda Lima;Bruno Silva;Sao Jose dos Pinhais;Vendido
+58;Fiat;Cronos;Sedan;2025;2025;Prata;Flex;Automatico;24690;YNK9C16;2025-05-14;64100;2400;66500;78100;2025-06-08;76700;10200;25;Financiamento;Roberto Alves;Tatiana Ribeiro;Cascavel;Vendido
+59;Toyota;Corolla Cross;SUV;2023;2023;Branco;Flex;Automatico;47094;VTT0C39;2025-05-18;128800;300;129100;153900;2025-07-01;147200;18100;44;Financiamento;Fernanda Lima;Mariana Santos;Cascavel;Vendido
+60;Renault;Logan;Sedan;2024;2024;Prata;Gasolina;Automatico;32834;XKZ7J48;2025-05-18;55500;1800;57300;62300;;;;399;;;;;Em estoque
+61;Jeep;Compass;SUV;2020;2020;Branco;Diesel;Automatico;68668;RDW8D41;2025-05-22;85500;2000;87500;100800;;;;395;;;;;Em estoque
+62;Renault;Duster;SUV;2019;2020;Cinza;Diesel;Automatico;80347;OAF7S37;2025-05-26;62100;2900;65000;69900;2025-07-02;69200;4200;37;Financiamento;Carlos Eduardo;Vinicius Rocha;Cascavel;Vendido
+63;Nissan;Versa;Sedan;2024;2025;Prata;Flex;Manual;8736;TYI0O77;2025-05-29;82500;4100;86600;89500;2025-07-05;87200;600;37;Financiamento;Juliana Souza;Paulo Rodrigues;Pinhais;Vendido
+64;Hyundai;HB20;Hatch;2023;2023;Branco;Diesel;Manual;51164;UET4K11;2025-05-31;52500;2300;54800;61200;2025-07-15;63000;8200;45;Consorcio;Patricia Gomes;Gustavo Oliveira;Curitiba;Vendido
+65;Ford;Ka;Hatch;2022;2022;Cinza;Flex;Automatico;41677;HDO2Z78;2025-06-01;32400;1100;33500;37800;2025-09-03;38200;4700;94;Troca + Financiamento;Carlos Eduardo;Olivia Souza;Pinhais;Vendido
+66;Jeep;Renegade;SUV;2023;2023;Cinza;Flex;Manual;41398;IME6G83;2025-06-02;83800;2800;86600;98500;2025-07-03;98500;11900;31;Troca + Financiamento;Fernanda Lima;Joana Costa;Maringa;Vendido
+67;Ford;Ka;Hatch;2020;2020;Preto;Gasolina;Automatico;80263;UZK2V81;2025-06-03;27700;2200;29900;31000;2025-07-03;30300;400;30;Financiamento;Patricia Gomes;Nelson Oliveira;Guarapuava;Vendido
+68;Toyota;Hilux;Picape;2022;2022;Vermelho;Diesel;Automatico;37509;BGN6Y90;2025-06-04;162000;700;162700;187500;2025-09-11;188500;25800;99;A vista;Juliana Souza;Carla Almeida;Maringa;Vendido
+69;Volkswagen;T-Cross;SUV;2022;2022;Prata;Flex;Manual;46058;TBO9V03;2025-06-08;75100;2500;77600;89800;2025-09-05;86100;8500;89;Financiamento;Marcos Pereira;Olivia Ribeiro;Curitiba;Vendido
+70;Toyota;Corolla Cross;SUV;2019;2020;Branco;Gasolina;Automatico;82345;SGX1X57;2025-06-08;93900;300;94200;112300;2025-07-06;109100;14900;28;A vista;Marcos Pereira;Helena Souza;Araucaria;Vendido
+71;Jeep;Renegade;SUV;2023;2024;Vermelho;Flex;Manual;44053;YFP8O74;2025-06-13;92800;1200;94000;112700;;;;373;;;;;Em estoque
+72;Ford;EcoSport;SUV;2020;2020;Cinza;Flex;Manual;74679;EPT6C14;2025-06-15;45000;2400;47400;53300;2025-07-18;52800;5400;33;Financiamento;Juliana Souza;Tatiana Ribeiro;Curitiba;Vendido
+73;Volkswagen;T-Cross;SUV;2023;2023;Prata;Flex;Manual;42984;MGO3W51;2025-06-18;88200;900;89100;95900;2025-07-24;97400;8300;36;Troca + Financiamento;Juliana Souza;Olivia Santos;Araucaria;Vendido
+74;Ford;Ranger;Picape;2021;2021;Azul;Flex;Manual;58838;ZGE0B37;2025-06-23;129400;2300;131700;156100;2025-09-09;151800;20100;78;Financiamento;Juliana Souza;Wesley Ferreira;Sao Jose dos Pinhais;Vendido
+75;Volkswagen;Saveiro;Picape;2023;2024;Prata;Flex;Automatico;23645;JHJ4W37;2025-06-27;65000;3600;68600;74200;2025-07-05;74500;5900;8;Financiamento;Marcos Pereira;Igor Ribeiro;Londrina;Vendido
+76;Toyota;Corolla;Sedan;2020;2020;Azul;Diesel;Automatico;82727;PUF2C70;2025-06-29;77500;3400;80900;94000;;;;357;;;;;Em estoque
+77;Ford;Ranger;Picape;2024;2024;Prata;Flex;Automatico;36559;WFZ5B02;2025-06-29;182300;300;182600;201400;2025-08-31;194900;12300;63;Financiamento;Roberto Alves;Ana Ferreira;Guarapuava;Vendido
+78;Hyundai;Creta;SUV;2025;2026;Branco;Flex;Automatico;80;EPY6Y63;2025-06-29;117200;1400;118600;140800;2025-08-03;141700;23100;35;A vista;Roberto Alves;Sergio Teixeira;Curitiba;Vendido
+79;Hyundai;Creta;SUV;2018;2019;Azul;Gasolina;Automatico;84654;BCY4K56;2025-07-01;64200;2400;66600;73700;;;;355;;;;;Em estoque
+80;Chevrolet;Tracker;SUV;2023;2023;Preto;Flex;Automatico;48133;YQA9K70;2025-07-02;89700;2700;92400;98900;2025-07-30;94800;2400;28;Financiamento;Roberto Alves;Sergio Ribeiro;Colombo;Vendido
+81;Jeep;Commander;SUV;2022;2022;Azul;Diesel;Automatico;38726;OBX5T64;2025-07-04;140800;1700;142500;154000;2025-08-12;154400;11900;39;Financiamento;Fernanda Lima;Wesley Rocha;Maringa;Vendido
+82;Honda;Civic;Sedan;2020;2020;Preto;Diesel;Manual;80796;DYW3M73;2025-07-16;79700;2100;81800;97300;;;;340;;;;;Em estoque
+83;Volkswagen;Polo;Hatch;2024;2024;Preto;Diesel;Automatico;24766;OFP9R55;2025-07-23;63600;2000;65600;73400;2025-10-09;74600;9000;78;Financiamento;Roberto Alves;Diego Martins;Curitiba;Vendido
+84;Renault;Duster;SUV;2022;2022;Cinza;Flex;Automatico;58174;LDS3S82;2025-07-25;72400;400;72800;81800;2025-09-21;79800;7000;58;A vista;Juliana Souza;Rafaela Ribeiro;Colombo;Vendido
+85;Toyota;Etios;Sedan;2025;2025;Prata;Flex;Automatico;32976;KUF5U00;2025-07-25;47700;300;48000;53600;2025-10-09;55200;7200;76;Financiamento;Marcos Pereira;Paulo Oliveira;Ponta Grossa;Vendido
+86;Hyundai;Creta;SUV;2022;2022;Azul;Diesel;Automatico;71375;EGK3M93;2025-07-28;83200;4000;87200;99600;2025-08-08;96400;9200;11;Troca + Financiamento;Carlos Eduardo;Igor Carvalho;Guarapuava;Vendido
+87;Volkswagen;Virtus;Sedan;2022;2022;Vermelho;Diesel;Automatico;58335;VLW7D13;2025-07-31;57600;300;57900;67800;2025-08-18;68900;11000;18;Troca + Financiamento;Marcos Pereira;Paulo Ferreira;Cascavel;Vendido
+88;Fiat;Cronos;Sedan;2020;2020;Azul;Flex;Automatico;75271;GIU6Q00;2025-08-08;40400;3200;43600;49000;;;;317;;;;;Em estoque
+89;Hyundai;Tucson;SUV;2021;2021;Vermelho;Gasolina;Manual;64931;XKB0S78;2025-08-11;100900;1300;102200;110700;;;;314;;;;;Em estoque
+90;Honda;Fit;Hatch;2019;2019;Vermelho;Flex;Automatico;68773;VPG8E99;2025-08-14;37100;2200;39300;44600;2025-09-30;44900;5600;47;Financiamento;Carlos Eduardo;Carla Silva;Ponta Grossa;Vendido
+91;Ford;EcoSport;SUV;2022;2022;Prata;Gasolina;Automatico;50608;AMS9V01;2025-08-14;59200;3100;62300;67500;2025-09-23;66200;3900;40;Consorcio;Juliana Souza;Nelson Rocha;Pinhais;Vendido
+92;Fiat;Toro;Picape;2022;2022;Vermelho;Gasolina;Manual;57730;QUF9S22;2025-08-19;93300;700;94000;107900;2025-12-01;109800;15800;104;A vista;Fernanda Lima;Tatiana Rodrigues;Pinhais;Vendido
+93;Renault;Oroch;Picape;2023;2023;Prata;Flex;Automatico;38805;ZDQ8X80;2025-08-20;72600;2700;75300;87400;;;;305;;;;;Em estoque
+94;Fiat;Argo;Hatch;2026;2026;Prata;Diesel;Automatico;0;PEF3H06;2025-08-25;68700;900;69600;79400;2025-09-09;78500;8900;15;Financiamento;Roberto Alves;Wesley Costa;Ponta Grossa;Vendido
+95;Jeep;Compass;SUV;2021;2021;Prata;Flex;Manual;63479;AJS9D54;2025-08-26;92800;3000;95800;115900;2025-09-28;118600;22800;33;Consorcio;Carlos Eduardo;Fabiana Silva;Maringa;Vendido
+96;Volkswagen;Nivus;SUV;2022;2022;Azul;Gasolina;Automatico;48073;STY5H42;2025-08-28;76800;2100;78900;90000;;;;297;;;;;Em estoque
+97;Hyundai;HB20;Hatch;2023;2024;Vermelho;Flex;Automatico;20269;SES9L56;2025-08-29;58200;3100;61300;67800;2025-10-04;67800;6500;36;A vista;Marcos Pereira;Lucas Costa;Londrina;Vendido
+98;Chevrolet;S10;Picape;2021;2021;Branco;Flex;Automatico;65619;ULB6I31;2025-08-30;116400;1700;118100;138100;;;;295;;;;;Em estoque
+99;Toyota;Corolla Cross;SUV;2021;2021;Prata;Flex;Automatico;49834;AFX5Z63;2025-08-31;111600;1100;112700;125300;;;;294;;;;;Em estoque
+100;Fiat;Strada;Picape;2023;2024;Cinza;Flex;Automatico;28030;SDO8H90;2025-09-01;74800;1800;76600;94100;2025-11-08;90300;13700;68;Consorcio;Fernanda Lima;Diego Rocha;Sao Jose dos Pinhais;Vendido
+101;Honda;Fit;Hatch;2026;2026;Vermelho;Flex;Automatico;1284;NUK1D81;2025-09-02;69900;2500;72400;88300;2025-12-28;89700;17300;117;Financiamento;Carlos Eduardo;Rafaela Barbosa;Cascavel;Vendido
+102;Volkswagen;Polo;Hatch;2023;2024;Cinza;Flex;Automatico;25094;WIN7P37;2025-09-03;61100;4400;65500;68400;2025-10-16;67200;1700;43;Financiamento;Carlos Eduardo;Diego Costa;Sao Jose dos Pinhais;Vendido
+103;Jeep;Renegade;SUV;2024;2024;Preto;Diesel;Manual;33034;VYE0R26;2025-09-03;98300;1800;100100;109700;2025-10-02;110100;10000;29;Consorcio;Roberto Alves;Helena Silva;Sao Jose dos Pinhais;Vendido
+104;Renault;Oroch;Picape;2024;2025;Prata;Flex;Automatico;11677;DIC6U33;2025-09-14;94200;4800;99000;109500;2025-12-05;110800;11800;82;Troca + Financiamento;Juliana Souza;Paulo Martins;Londrina;Vendido
+105;Fiat;Pulse;SUV;2024;2024;Prata;Flex;Automatico;39170;XDV8Y45;2025-09-15;83800;800;84600;95900;;;;279;;;;;Em estoque
+106;Jeep;Commander;SUV;2022;2022;Prata;Diesel;Automatico;58542;XSY8T41;2025-09-15;141100;1100;142200;156400;2025-12-09;157600;15400;85;Financiamento;Fernanda Lima;Tatiana Barbosa;Pinhais;Vendido
+107;Volkswagen;Nivus;SUV;2023;2023;Azul;Gasolina;Manual;47847;YXG4O21;2025-09-15;82400;1800;84200;91500;2025-12-09;90200;6000;85;Troca + Financiamento;Carlos Eduardo;Mariana Barbosa;Guarapuava;Vendido
+108;Nissan;Kicks;SUV;2022;2023;Vermelho;Gasolina;Automatico;43744;FLR8P44;2025-09-17;78200;800;79000;94600;2025-09-24;94500;15500;7;Consorcio;Patricia Gomes;Nelson Barbosa;Colombo;Vendido
+109;Fiat;Mobi;Hatch;2021;2021;Preto;Gasolina;Automatico;61171;UNW4O43;2025-09-18;35600;700;36300;40100;2025-09-30;39600;3300;12;Consorcio;Fernanda Lima;Tatiana Oliveira;Sao Jose dos Pinhais;Vendido
+110;Renault;Logan;Sedan;2025;2025;Azul;Flex;Automatico;17237;MXS9A23;2025-09-18;61500;2400;63900;70000;2025-12-13;68200;4300;86;Financiamento;Roberto Alves;Lucas Barbosa;Curitiba;Vendido
+111;Toyota;Corolla;Sedan;2021;2022;Cinza;Diesel;Manual;45241;RIP2G04;2025-09-19;90400;3300;93700;114100;2025-10-05;108800;15100;16;Consorcio;Carlos Eduardo;Ana Silva;Sao Jose dos Pinhais;Vendido
+112;Fiat;Argo;Hatch;2020;2021;Branco;Gasolina;Automatico;53348;JPZ9R51;2025-09-19;40100;1800;41900;47800;2025-11-26;47200;5300;68;Troca + Financiamento;Patricia Gomes;Bruno Oliveira;Ponta Grossa;Vendido
+113;Toyota;Corolla;Sedan;2020;2021;Branco;Flex;Automatico;61111;VMM3C93;2025-09-20;91300;2100;93400;100600;2025-11-24;101600;8200;65;Troca + Financiamento;Carlos Eduardo;Fabiana Rodrigues;Sao Jose dos Pinhais;Vendido
+114;Honda;Civic;Sedan;2023;2023;Preto;Flex;Manual;34538;JGZ9I07;2025-09-22;107800;3700;111500;129900;2025-09-25;130600;19100;3;Financiamento;Juliana Souza;Nelson Ribeiro;Cascavel;Vendido
+115;Fiat;Pulse;SUV;2019;2020;Prata;Diesel;Automatico;69216;XKK7I31;2025-09-25;59800;1500;61300;64600;;;;269;;;;;Em estoque
+116;Nissan;Versa;Sedan;2021;2021;Branco;Diesel;Automatico;50364;GIB6A88;2025-09-29;53200;4400;57600;61800;2025-11-23;61700;4100;55;Troca + Financiamento;Fernanda Lima;Lucas Almeida;Guarapuava;Vendido
+117;Ford;Ranger;Picape;2019;2019;Azul;Flex;Automatico;82838;HZZ6J71;2025-09-29;113200;4300;117500;121100;2025-11-28;122500;5000;60;A vista;Fernanda Lima;Ana Costa;Cascavel;Vendido
+118;Fiat;Strada;Picape;2018;2019;Branco;Diesel;Manual;93365;JVU9P31;2025-09-29;47700;2500;50200;58300;2025-11-09;57200;7000;41;A vista;Roberto Alves;Rafaela Oliveira;Curitiba;Vendido
+119;Renault;Kwid;Hatch;2023;2024;Preto;Gasolina;Automatico;26304;SAI5W30;2025-10-01;42000;2800;44800;49100;;;;263;;;;;Em estoque
+120;Renault;Sandero;Hatch;2024;2025;Preto;Flex;Automatico;17973;UYB1M66;2025-10-01;54700;2500;57200;67800;2025-12-19;64800;7600;79;Financiamento;Patricia Gomes;Paulo Ribeiro;Colombo;Vendido
+121;Volkswagen;Virtus;Sedan;2022;2023;Vermelho;Flex;Manual;34133;YZN0I22;2025-10-01;63700;1700;65400;71100;;;;263;;;;;Em estoque
+122;Chevrolet;Onix Plus;Sedan;2018;2018;Azul;Diesel;Manual;83517;PLN5K12;2025-10-03;38100;700;38800;42400;2025-11-18;42000;3200;46;Consorcio;Fernanda Lima;Igor Oliveira;Guarapuava;Vendido
+123;Toyota;Corolla Cross;SUV;2021;2021;Cinza;Diesel;Automatico;65865;SAY1X75;2025-10-03;105700;300;106000;123700;2025-11-08;125400;19400;36;A vista;Juliana Souza;Nelson Carvalho;Araucaria;Vendido
+124;Honda;Civic;Sedan;2025;2025;Azul;Gasolina;Manual;19039;QKV2K80;2025-10-07;132300;2900;135200;158100;2025-10-17;153600;18400;10;Financiamento;Carlos Eduardo;Vinicius Almeida;Londrina;Vendido
+125;Jeep;Renegade;SUV;2021;2021;Vermelho;Flex;Manual;71093;QVL8U99;2025-10-09;73100;2000;75100;80700;2025-11-03;78300;3200;25;Consorcio;Roberto Alves;Sergio Teixeira;Guarapuava;Vendido
+126;Jeep;Commander;SUV;2023;2023;Vermelho;Gasolina;Manual;42899;CQE7J48;2025-10-09;148100;2700;150800;178300;;;;255;;;;;Em estoque
+127;Honda;Civic;Sedan;2018;2019;Prata;Flex;Manual;87984;HFP1V95;2025-10-10;73000;1300;74300;86400;2025-11-04;84800;10500;25;Troca + Financiamento;Fernanda Lima;Bruno Ribeiro;Londrina;Vendido
+128;Hyundai;Tucson;SUV;2022;2022;Prata;Diesel;Automatico;47101;TVM5A75;2025-10-13;104200;1400;105600;129000;;;;251;;;;;Em estoque
+129;Honda;Civic;Sedan;2024;2024;Preto;Diesel;Automatico;34126;RFS9M29;2025-10-15;120400;300;120700;147500;;;;249;;;;;Em estoque
+130;Jeep;Renegade;SUV;2025;2025;Azul;Flex;Automatico;11275;LBM0S83;2025-10-16;103900;2200;106100;115200;2026-01-01;113800;7700;77;A vista;Roberto Alves;Diego Almeida;Pinhais;Vendido
+131;Toyota;Corolla;Sedan;2021;2021;Cinza;Flex;Automatico;71995;UGK8C12;2025-10-17;91000;3100;94100;101200;2025-11-20;100300;6200;34;Consorcio;Juliana Souza;Sergio Barbosa;Cascavel;Vendido
+132;Fiat;Cronos;Sedan;2023;2023;Cinza;Flex;Manual;27974;FKH5K44;2025-10-21;58200;2200;60400;64100;2026-02-01;64200;3800;103;Troca + Financiamento;Patricia Gomes;Olivia Martins;Guarapuava;Vendido
+133;Honda;HR-V;SUV;2025;2025;Cinza;Flex;Manual;10952;FZM0H32;2025-10-25;128000;3100;131100;144700;2026-01-26;143500;12400;93;A vista;Roberto Alves;Olivia Martins;Pinhais;Vendido
+134;Volkswagen;Virtus;Sedan;2024;2024;Prata;Gasolina;Manual;17706;OFF9S27;2025-10-25;65700;1600;67300;78800;2025-11-25;77200;9900;31;Financiamento;Carlos Eduardo;Helena Teixeira;Guarapuava;Vendido
+135;Fiat;Strada;Picape;2022;2022;Branco;Flex;Manual;42622;OUZ1X39;2025-10-25;66600;1200;67800;76800;;;;239;;;;;Em estoque
+136;Toyota;Hilux;Picape;2023;2024;Cinza;Flex;Manual;38849;BIP1C67;2025-10-27;196500;2100;198600;243000;2026-01-22;240400;41800;87;Consorcio;Marcos Pereira;Vinicius Rodrigues;Londrina;Vendido
+137;Honda;Fit;Hatch;2023;2023;Azul;Gasolina;Automatico;41072;GGG9W45;2025-10-29;57000;2000;59000;63900;2026-01-12;61400;2400;75;A vista;Fernanda Lima;Sergio Rodrigues;Cascavel;Vendido
+138;Chevrolet;Cruze;Sedan;2021;2021;Prata;Flex;Automatico;55188;PZJ5Z17;2025-10-30;66900;2600;69500;73200;2025-11-26;74100;4600;27;A vista;Marcos Pereira;Mariana Carvalho;Cascavel;Vendido
+139;Jeep;Compass;SUV;2023;2023;Prata;Flex;Automatico;31252;ZXU5A88;2025-10-30;113100;2200;115300;135800;;;;234;;;;;Em estoque
+140;Hyundai;Creta;SUV;2021;2021;Azul;Flex;Automatico;70189;EXA7J46;2025-11-02;74600;1800;76400;86700;2026-01-12;86000;9600;71;Consorcio;Fernanda Lima;Bruno Barbosa;Guarapuava;Vendido
+141;Jeep;Commander;SUV;2022;2022;Preto;Flex;Automatico;45901;SJZ0T74;2025-11-03;139000;1900;140900;155000;2025-11-12;153300;12400;9;A vista;Roberto Alves;Rafaela Teixeira;Curitiba;Vendido
+142;Renault;Sandero;Hatch;2021;2022;Vermelho;Gasolina;Manual;44532;TUF7L32;2025-11-03;40900;2200;43100;49300;2025-12-04;49900;6800;31;Financiamento;Juliana Souza;Eduardo Martins;Pinhais;Vendido
+143;Volkswagen;Polo;Hatch;2020;2020;Branco;Flex;Manual;82077;ABY3E36;2025-11-03;41300;2500;43800;48800;2025-12-25;47900;4100;52;Consorcio;Fernanda Lima;Tatiana Souza;Sao Jose dos Pinhais;Vendido
+144;Toyota;Hilux;Picape;2023;2023;Vermelho;Gasolina;Automatico;50820;MRA4J36;2025-11-04;187000;1200;188200;206800;2025-12-05;208000;19800;31;Financiamento;Roberto Alves;Gustavo Almeida;Maringa;Vendido
+145;Toyota;Etios;Sedan;2023;2023;Preto;Flex;Manual;40945;KMV2C68;2025-11-06;40200;1800;42000;45100;2026-01-25;45800;3800;80;Troca + Financiamento;Roberto Alves;Nelson Teixeira;Curitiba;Vendido
+146;Fiat;Cronos;Sedan;2025;2025;Vermelho;Flex;Automatico;27273;VOA0W51;2025-11-09;68400;2900;71300;75300;2025-12-25;72100;800;46;Financiamento;Carlos Eduardo;Gustavo Costa;Sao Jose dos Pinhais;Vendido
+147;Renault;Oroch;Picape;2019;2020;Prata;Flex;Automatico;76636;ORI8O28;2025-11-13;57800;2700;60500;68000;2025-12-25;65300;4800;42;A vista;Roberto Alves;Fabiana Silva;Curitiba;Vendido
+148;Fiat;Strada;Picape;2022;2022;Cinza;Gasolina;Manual;44369;ZCO4L64;2025-11-14;66700;700;67400;77000;;;;219;;;;;Em estoque
+149;Chevrolet;S10;Picape;2022;2022;Cinza;Gasolina;Manual;56826;AJB9C57;2025-11-14;128800;1600;130400;152200;2026-02-04;154600;24200;82;Consorcio;Patricia Gomes;Eduardo Souza;Curitiba;Vendido
+150;Nissan;Versa;Sedan;2021;2022;Branco;Diesel;Automatico;66535;FWT9U79;2025-11-15;60200;1200;61400;67500;2025-12-12;64800;3400;27;Financiamento;Roberto Alves;Bruno Santos;Maringa;Vendido
+151;Volkswagen;Polo;Hatch;2022;2022;Prata;Flex;Automatico;49960;RQD4P43;2025-11-16;50800;3300;54100;59700;;;;217;;;;;Em estoque
+152;Honda;Fit;Hatch;2020;2021;Cinza;Diesel;Manual;60051;GQL9Y77;2025-11-19;48500;2600;51100;53400;2025-11-29;51200;100;10;Troca + Financiamento;Juliana Souza;Sergio Teixeira;Curitiba;Vendido
+153;Chevrolet;Onix Plus;Sedan;2020;2020;Vermelho;Flex;Manual;83981;GZE3Z70;2025-11-24;41400;1200;42600;51200;2025-12-29;49800;7200;35;A vista;Fernanda Lima;Fabiana Rocha;Pinhais;Vendido
+154;Volkswagen;Gol;Hatch;2022;2022;Prata;Flex;Automatico;65705;DAT8Q13;2025-11-25;32100;1100;33200;39300;2025-12-27;38200;5000;32;A vista;Roberto Alves;Paulo Martins;Sao Jose dos Pinhais;Vendido
+155;Renault;Logan;Sedan;2022;2022;Branco;Flex;Automatico;63400;MYC8H98;2025-11-29;42700;3300;46000;52300;;;;204;;;;;Em estoque
+156;Renault;Sandero;Hatch;2025;2025;Prata;Gasolina;Automatico;4502;KUW7R09;2025-12-03;55500;1100;56600;64000;;;;200;;;;;Em estoque
+157;Ford;EcoSport;SUV;2024;2025;Preto;Diesel;Automatico;23778;VDH2J75;2025-12-06;76900;3300;80200;84100;2026-02-21;81700;1500;77;A vista;Fernanda Lima;Lucas Teixeira;Araucaria;Vendido
+158;Fiat;Mobi;Hatch;2023;2023;Cinza;Diesel;Automatico;38306;YJP8D29;2025-12-06;41500;300;41800;48900;;;;197;;;;;Em estoque
+159;Jeep;Renegade;SUV;2022;2023;Cinza;Diesel;Automatico;36988;NFN7M58;2025-12-10;86600;2900;89500;102600;2026-01-21;98000;8500;42;Financiamento;Fernanda Lima;Diego Rocha;Curitiba;Vendido
+160;Honda;Civic;Sedan;2021;2021;Prata;Gasolina;Automatico;66152;BAU2Q77;2025-12-13;93000;400;93400;111200;2026-01-11;109500;16100;29;Financiamento;Juliana Souza;Rafaela Ferreira;Maringa;Vendido
+161;Honda;Civic;Sedan;2021;2022;Prata;Flex;Automatico;51204;XUE3D24;2025-12-14;100700;1600;102300;121200;2026-02-04;122700;20400;52;Financiamento;Carlos Eduardo;Diego Carvalho;Cascavel;Vendido
+162;Renault;Oroch;Picape;2024;2024;Vermelho;Gasolina;Manual;30225;HMM2D03;2025-12-17;83000;300;83300;93700;;;;186;;;;;Em estoque
+163;Honda;Fit;Hatch;2018;2018;Prata;Flex;Automatico;98820;XGH3I33;2025-12-17;32800;2400;35200;39100;2026-01-11;40100;4900;25;A vista;Roberto Alves;Mariana Souza;Guarapuava;Vendido
+164;Chevrolet;Onix Plus;Sedan;2024;2024;Azul;Diesel;Automatico;35112;BAK2U42;2025-12-18;65200;2500;67700;71900;2026-02-21;72000;4300;65;Financiamento;Fernanda Lima;Rafaela Rodrigues;Curitiba;Vendido
+165;Fiat;Mobi;Hatch;2025;2025;Branco;Flex;Automatico;9074;ZSB8O81;2025-12-19;49000;2900;51900;58400;2026-03-22;56100;4200;93;Financiamento;Carlos Eduardo;Wesley Teixeira;Araucaria;Vendido
+166;Toyota;Hilux;Picape;2023;2023;Vermelho;Flex;Automatico;38748;QME4B58;2025-12-19;187400;4500;191900;216800;;;;184;;;;;Em estoque
+167;Volkswagen;Polo;Hatch;2022;2022;Prata;Flex;Automatico;56113;RDK3O14;2025-12-20;49600;3600;53200;59900;;;;183;;;;;Em estoque
+168;Chevrolet;Cruze;Sedan;2020;2020;Branco;Diesel;Automatico;86510;UOW2N28;2025-12-22;60000;4500;64500;70400;2026-04-05;70600;6100;104;Consorcio;Carlos Eduardo;Lucas Silva;Maringa;Vendido
+169;Volkswagen;Saveiro;Picape;2021;2021;Preto;Flex;Automatico;52744;GOM9A42;2025-12-22;49200;1400;50600;57100;;;;181;;;;;Em estoque
+170;Volkswagen;Gol;Hatch;2022;2023;Cinza;Flex;Manual;37285;WML2I07;2025-12-22;36000;1900;37900;41300;;;;181;;;;;Em estoque
+171;Fiat;Cronos;Sedan;2022;2022;Cinza;Flex;Automatico;54710;QLH6C53;2025-12-24;53100;1500;54600;60300;;;;179;;;;;Em estoque
+172;Honda;City;Sedan;2018;2018;Prata;Flex;Manual;102064;VLO3U99;2025-12-24;45200;1300;46500;51800;2026-02-13;50700;4200;51;Troca + Financiamento;Carlos Eduardo;Wesley Carvalho;Londrina;Vendido
+173;Fiat;Pulse;SUV;2021;2021;Vermelho;Flex;Manual;52686;MEB0G42;2025-12-27;61200;2000;63200;70300;2025-12-30;70800;7600;3;Financiamento;Juliana Souza;Tatiana Rodrigues;Maringa;Vendido
+174;Honda;Civic;Sedan;2026;2026;Cinza;Diesel;Automatico;8522;DMA5F97;2025-12-29;151400;3000;154400;171700;2026-02-17;163400;9000;50;Troca + Financiamento;Patricia Gomes;Lucas Ribeiro;Maringa;Vendido
+175;Toyota;Corolla Cross;SUV;2020;2020;Prata;Diesel;Automatico;79684;OID1F49;2026-01-02;96000;2600;98600;111000;;;;170;;;;;Em estoque
+176;Honda;Civic;Sedan;2024;2024;Azul;Gasolina;Automatico;28975;IXI9R92;2026-01-05;116300;1800;118100;138900;2026-02-25;142200;24100;51;Financiamento;Marcos Pereira;Bruno Martins;Ponta Grossa;Vendido
+177;Chevrolet;Onix Plus;Sedan;2019;2020;Vermelho;Diesel;Automatico;79711;LDV3P09;2026-01-10;44400;1400;45800;51900;2026-01-28;50900;5100;18;A vista;Fernanda Lima;Diego Costa;Ponta Grossa;Vendido
+178;Honda;HR-V;SUV;2020;2021;Vermelho;Flex;Automatico;59385;VHD4Z38;2026-01-10;86600;1700;88300;101700;2026-01-27;102700;14400;17;Financiamento;Fernanda Lima;Nelson Rodrigues;Londrina;Vendido
+179;Hyundai;Creta;SUV;2023;2023;Vermelho;Gasolina;Manual;37917;TVW4A24;2026-01-12;88800;1500;90300;103200;2026-02-08;100300;10000;27;Troca + Financiamento;Carlos Eduardo;Olivia Teixeira;Cascavel;Vendido
+180;Renault;Kwid;Hatch;2019;2019;Prata;Flex;Manual;90016;ANA3R50;2026-01-13;25700;1000;26700;31200;2026-02-03;31200;4500;21;Troca + Financiamento;Roberto Alves;Vinicius Costa;Colombo;Vendido
+181;Hyundai;Tucson;SUV;2020;2021;Vermelho;Flex;Manual;67768;JWQ6E89;2026-01-18;97100;3100;100200;113300;;;;154;;;;;Em estoque
+182;Fiat;Mobi;Hatch;2020;2020;Cinza;Flex;Manual;66723;PXU0D66;2026-01-23;31500;1700;33200;37400;2026-04-13;36200;3000;80;Consorcio;Fernanda Lima;Vinicius Costa;Sao Jose dos Pinhais;Vendido
+183;Nissan;Versa;Sedan;2024;2024;Preto;Gasolina;Automatico;33968;NGC2E41;2026-01-23;71500;2000;73500;84600;2026-04-25;80900;7400;92;A vista;Roberto Alves;Sergio Barbosa;Guarapuava;Vendido
+184;Renault;Sandero;Hatch;2018;2019;Branco;Flex;Manual;98129;UCY0Y03;2026-01-24;31500;1400;32900;37100;2026-04-08;38100;5200;74;Troca + Financiamento;Fernanda Lima;Carla Costa;Curitiba;Vendido
+185;Honda;Fit;Hatch;2023;2023;Cinza;Flex;Manual;38921;JBJ1L74;2026-01-24;57600;1900;59500;65600;;;;148;;;;;Em estoque
+186;Honda;Civic;Sedan;2019;2020;Azul;Flex;Automatico;79922;RJM9S73;2026-01-24;80200;1900;82100;99900;2026-03-03;96600;14500;38;Financiamento;Carlos Eduardo;Vinicius Barbosa;Curitiba;Vendido
+187;Ford;Ranger;Picape;2023;2024;Preto;Diesel;Manual;28561;NWG6Q97;2026-01-25;172500;300;172800;205100;2026-03-03;206000;33200;37;Consorcio;Carlos Eduardo;Diego Souza;Curitiba;Vendido
+188;Fiat;Toro;Picape;2020;2020;Prata;Flex;Manual;78148;XUT0U60;2026-01-26;79700;3300;83000;90300;2026-02-17;86200;3200;22;Consorcio;Juliana Souza;Mariana Teixeira;Maringa;Vendido
+189;Renault;Sandero;Hatch;2020;2020;Azul;Flex;Manual;78567;FRM8E30;2026-01-27;37500;1200;38700;42900;2026-02-16;43900;5200;20;Financiamento;Fernanda Lima;Carla Martins;Cascavel;Vendido
+190;Renault;Oroch;Picape;2021;2021;Azul;Gasolina;Automatico;68148;YWA4G89;2026-01-29;64200;2300;66500;73000;2026-02-01;70800;4300;3;Troca + Financiamento;Juliana Souza;Helena Carvalho;Guarapuava;Vendido
+191;Volkswagen;Gol;Hatch;2022;2023;Vermelho;Flex;Manual;23569;GQO8W00;2026-01-31;37500;700;38200;40300;2026-02-03;39500;1300;3;Troca + Financiamento;Patricia Gomes;Diego Ferreira;Londrina;Vendido
+192;Fiat;Strada;Picape;2023;2023;Branco;Flex;Automatico;37353;WOG9J73;2026-02-01;68200;5000;73200;81600;;;;140;;;;;Em estoque
+193;Volkswagen;Polo;Hatch;2023;2024;Vermelho;Flex;Manual;37104;GUP1O05;2026-02-02;58500;2100;60600;71900;2026-03-26;71300;10700;52;Financiamento;Juliana Souza;Igor Silva;Ponta Grossa;Vendido
+194;Chevrolet;Spin;Minivan;2020;2020;Azul;Flex;Automatico;62540;QDJ4T14;2026-02-03;53800;800;54600;62200;2026-03-29;61800;7200;54;Financiamento;Juliana Souza;Wesley Santos;Guarapuava;Vendido
+195;Ford;Ka;Hatch;2023;2023;Prata;Gasolina;Manual;39618;FTK9H91;2026-02-05;34000;2700;36700;42500;;;;136;;;;;Em estoque
+196;Hyundai;HB20;Hatch;2023;2023;Prata;Gasolina;Automatico;35254;QCH6J62;2026-02-07;50400;3600;54000;61700;;;;134;;;;;Em estoque
+197;Volkswagen;Gol;Hatch;2021;2021;Cinza;Flex;Manual;55791;RML6E42;2026-02-08;29400;3500;32900;33900;2026-02-11;34100;1200;3;Financiamento;Fernanda Lima;Olivia Carvalho;Colombo;Vendido
+198;Renault;Logan;Sedan;2025;2025;Prata;Flex;Automatico;2158;ZLH3T42;2026-02-10;58400;1500;59900;66300;2026-05-10;66000;6100;89;A vista;Juliana Souza;Bruno Ribeiro;Londrina;Vendido
+199;Ford;Ranger;Picape;2019;2019;Azul;Flex;Manual;92127;WRW9Z53;2026-02-10;112200;4000;116200;124000;2026-02-13;121100;4900;3;Consorcio;Fernanda Lima;Fabiana Rocha;Maringa;Vendido
+200;Chevrolet;Spin;Minivan;2020;2020;Preto;Flex;Automatico;81753;IZO7H58;2026-02-11;51700;2500;54200;63600;;;;130;;;;;Em estoque
+201;Nissan;Frontier;Picape;2020;2021;Preto;Flex;Automatico;65838;HSM8K62;2026-02-12;131200;1800;133000;153100;;;;129;;;;;Em estoque
+202;Nissan;Kicks;SUV;2025;2025;Cinza;Gasolina;Automatico;9141;QKI3V53;2026-02-18;103000;2400;105400;118200;2026-04-08;120700;15300;49;Financiamento;Fernanda Lima;Wesley Silva;Guarapuava;Vendido
+203;Renault;Logan;Sedan;2023;2023;Prata;Flex;Automatico;45935;UIG2F25;2026-02-20;48500;800;49300;58900;2026-04-29;58200;8900;68;Financiamento;Roberto Alves;Sergio Oliveira;Londrina;Vendido
+204;Chevrolet;Onix Plus;Sedan;2020;2021;Prata;Gasolina;Automatico;70170;ZGN1R32;2026-02-23;48100;2400;50500;54000;2026-03-19;52300;1800;24;A vista;Juliana Souza;Paulo Santos;Colombo;Vendido
+205;Nissan;Versa;Sedan;2018;2019;Cinza;Flex;Automatico;102747;XWR6S26;2026-02-23;47100;2900;50000;51400;2026-04-16;52900;2900;52;Consorcio;Carlos Eduardo;Helena Carvalho;Pinhais;Vendido
+206;Nissan;Kicks;SUV;2018;2018;Prata;Diesel;Manual;108243;OTP9M88;2026-02-23;52400;1100;53500;60300;2026-04-18;58000;4500;54;Consorcio;Fernanda Lima;Igor Martins;Pinhais;Vendido
+207;Renault;Logan;Sedan;2019;2019;Vermelho;Gasolina;Automatico;94866;DOD8O02;2026-02-25;33300;1900;35200;40200;2026-04-09;40800;5600;43;Financiamento;Fernanda Lima;Eduardo Costa;Curitiba;Vendido
+208;Nissan;Frontier;Picape;2017;2018;Preto;Diesel;Automatico;94216;UXI2Y31;2026-02-28;104900;4200;109100;121200;;;;113;;;;;Em estoque
+209;Chevrolet;S10;Picape;2019;2020;Prata;Flex;Automatico;72987;TKI8S95;2026-02-28;113200;2100;115300;124500;2026-03-31;119400;4100;31;Troca + Financiamento;Juliana Souza;Sergio Santos;Londrina;Vendido
+210;Nissan;Kicks;SUV;2023;2023;Vermelho;Diesel;Manual;42232;ORP5K88;2026-03-01;82000;3700;85700;93500;2026-03-04;94700;9000;3;Troca + Financiamento;Fernanda Lima;Ana Rodrigues;Araucaria;Vendido
+211;Jeep;Compass;SUV;2022;2023;Preto;Flex;Automatico;40817;VBF3Z80;2026-03-06;123900;3000;126900;141500;2026-03-21;137200;10300;15;Troca + Financiamento;Marcos Pereira;Lucas Rodrigues;Sao Jose dos Pinhais;Vendido
+212;Honda;Civic;Sedan;2020;2020;Prata;Gasolina;Automatico;74342;WLO1S18;2026-03-06;86300;1700;88000;101200;2026-05-09;96600;8600;64;Financiamento;Patricia Gomes;Igor Santos;Curitiba;Vendido
+213;Renault;Oroch;Picape;2023;2023;Vermelho;Flex;Automatico;36076;RLN4M79;2026-03-06;73500;300;73800;89500;2026-05-05;86100;12300;60;Financiamento;Roberto Alves;Vinicius Barbosa;Sao Jose dos Pinhais;Vendido
+214;Fiat;Pulse;SUV;2022;2023;Vermelho;Flex;Automatico;46428;DEJ0M59;2026-03-08;73700;1600;75300;87100;2026-04-22;88200;12900;45;Troca + Financiamento;Fernanda Lima;Helena Rocha;Londrina;Vendido
+215;Chevrolet;Onix;Hatch;2019;2020;Vermelho;Flex;Manual;79379;YZF6K42;2026-03-09;40600;2400;43000;46000;2026-05-11;45900;2900;63;Consorcio;Roberto Alves;Tatiana Almeida;Colombo;Vendido
+216;Nissan;Kicks;SUV;2022;2023;Azul;Diesel;Automatico;36662;EJM2Y87;2026-03-14;82500;400;82900;92700;2026-04-01;88400;5500;18;A vista;Fernanda Lima;Nelson Barbosa;Cascavel;Vendido
+217;Jeep;Compass;SUV;2019;2019;Cinza;Flex;Manual;100374;EQP1Y01;2026-03-15;77600;3300;80900;94200;;;;98;;;;;Em estoque
+218;Ford;EcoSport;SUV;2023;2024;Azul;Flex;Automatico;30180;WSP1S97;2026-03-18;65800;1600;67400;77600;2026-05-03;76400;9000;46;Financiamento;Juliana Souza;Tatiana Rocha;Colombo;Vendido
+219;Jeep;Renegade;SUV;2020;2020;Vermelho;Gasolina;Automatico;80337;FLL4M65;2026-03-25;65300;1900;67200;71800;;;;88;;;;;Em estoque
+220;Honda;City;Sedan;2021;2022;Prata;Gasolina;Manual;71942;JZZ7G59;2026-03-25;63200;1400;64600;78600;2026-03-30;77000;12400;5;Consorcio;Juliana Souza;Paulo Ribeiro;Araucaria;Vendido
+221;Volkswagen;Gol;Hatch;2021;2021;Branco;Gasolina;Manual;67946;VOL5O19;2026-03-25;29900;2000;31900;33400;2026-04-21;31900;0;27;Troca + Financiamento;Juliana Souza;Mariana Ferreira;Maringa;Vendido
+222;Volkswagen;T-Cross;SUV;2017;2018;Cinza;Flex;Automatico;110445;HNM0T65;2026-03-26;54200;2200;56400;60200;;;;87;;;;;Em estoque
+223;Renault;Duster;SUV;2023;2023;Prata;Flex;Manual;41635;XBH9E40;2026-03-29;79500;3000;82500;94900;2026-05-16;93500;11000;48;Financiamento;Patricia Gomes;Helena Souza;Ponta Grossa;Vendido
+224;Honda;Civic;Sedan;2021;2022;Branco;Flex;Manual;52882;BOB2S66;2026-03-31;105100;2400;107500;121500;;;;82;;;;;Em estoque
+225;Nissan;Frontier;Picape;2023;2023;Azul;Diesel;Automatico;41464;IYH4Y87;2026-04-02;162800;3000;165800;189200;;;;80;;;;;Em estoque
+226;Ford;Ka;Hatch;2021;2022;Branco;Flex;Automatico;54799;TAQ2J04;2026-04-04;31900;300;32200;39500;;;;78;;;;;Em estoque
+227;Toyota;Corolla Cross;SUV;2021;2021;Cinza;Diesel;Automatico;62205;JZI9B58;2026-04-05;109200;1400;110600;122800;2026-06-20;126400;15800;76;Financiamento;Fernanda Lima;Lucas Oliveira;Londrina;Vendido
+228;Ford;Ranger;Picape;2021;2021;Preto;Gasolina;Manual;63714;NYE9F51;2026-04-05;131400;1100;132500;152500;2026-05-31;147400;14900;56;Financiamento;Carlos Eduardo;Tatiana Martins;Colombo;Vendido
+229;Ford;Ka;Hatch;2023;2023;Branco;Diesel;Manual;41189;LVT3S98;2026-04-06;34200;2500;36700;42300;2026-04-19;41100;4400;13;A vista;Fernanda Lima;Tatiana Barbosa;Araucaria;Vendido
+230;Chevrolet;Tracker;SUV;2023;2023;Branco;Gasolina;Automatico;38232;MXZ8T26;2026-04-06;87300;3000;90300;95700;;;;76;;;;;Em estoque
+231;Ford;Ranger;Picape;2023;2023;Prata;Flex;Automatico;36661;DDC7R00;2026-04-07;162400;3800;166200;183000;2026-05-03;176500;10300;26;Financiamento;Carlos Eduardo;Helena Martins;Araucaria;Vendido
+232;Chevrolet;Tracker;SUV;2021;2021;Preto;Flex;Automatico;73106;JFD5Z03;2026-04-08;70600;2200;72800;80200;;;;74;;;;;Em estoque
+233;Hyundai;Creta;SUV;2023;2024;Prata;Gasolina;Manual;19489;XUR6H84;2026-04-09;104200;2400;106600;115800;;;;73;;;;;Em estoque
+234;Nissan;Versa;Sedan;2024;2025;Prata;Flex;Automatico;26578;NAT5H96;2026-04-14;77400;3200;80600;94000;2026-06-07;95600;15000;54;Troca + Financiamento;Roberto Alves;Tatiana Silva;Cascavel;Vendido
+235;Toyota;Hilux;Picape;2025;2025;Vermelho;Flex;Automatico;20232;CBV3Y41;2026-04-16;218100;1500;219600;248000;2026-06-19;254900;35300;64;A vista;Fernanda Lima;Tatiana Rodrigues;Guarapuava;Vendido
+236;Hyundai;HB20S;Sedan;2019;2020;Prata;Flex;Automatico;87987;GMK4C45;2026-04-17;42100;300;42400;51700;;;;65;;;;;Em estoque
+237;Honda;HR-V;SUV;2019;2019;Vermelho;Flex;Automatico;86874;ZNX0Q49;2026-04-17;68900;2100;71000;81200;;;;65;;;;;Em estoque
+238;Jeep;Renegade;SUV;2019;2019;Cinza;Flex;Automatico;92998;CRB1P04;2026-04-19;57900;2200;60100;68200;2026-05-31;66200;6100;42;Financiamento;Carlos Eduardo;Gustavo Ribeiro;Sao Jose dos Pinhais;Vendido
+239;Honda;HR-V;SUV;2022;2023;Azul;Diesel;Automatico;48351;HHE9I56;2026-04-22;108000;2200;110200;125900;2026-05-25;120500;10300;33;A vista;Marcos Pereira;Paulo Santos;Londrina;Vendido
+240;Jeep;Renegade;SUV;2020;2020;Branco;Flex;Manual;78321;MXK1H33;2026-04-24;63700;2500;66200;74100;;;;58;;;;;Em estoque
+241;Volkswagen;T-Cross;SUV;2019;2019;Cinza;Gasolina;Manual;80672;CAI3E89;2026-04-29;56000;300;56300;66700;;;;53;;;;;Em estoque
+242;Hyundai;HB20S;Sedan;2024;2025;Preto;Flex;Automatico;19764;NMX7M52;2026-04-30;66000;3300;69300;84000;2026-05-30;84900;15600;30;A vista;Carlos Eduardo;Mariana Teixeira;Curitiba;Vendido
+243;Renault;Logan;Sedan;2021;2021;Vermelho;Gasolina;Automatico;62650;VDN5V60;2026-05-01;42800;2900;45700;48000;2026-06-21;46000;300;51;Troca + Financiamento;Juliana Souza;Eduardo Carvalho;Curitiba;Vendido
+244;Renault;Logan;Sedan;2021;2021;Azul;Flex;Automatico;79712;JFV8F41;2026-05-03;40000;1900;41900;48100;;;;49;;;;;Em estoque
+245;Honda;HR-V;SUV;2022;2022;Cinza;Diesel;Automatico;43215;QLE8U92;2026-05-06;91400;2300;93700;109900;2026-06-12;111200;17500;37;Financiamento;Marcos Pereira;Carla Oliveira;Ponta Grossa;Vendido
+246;Ford;Ranger;Picape;2020;2020;Prata;Diesel;Manual;70173;HBE9S22;2026-05-06;117400;1700;119100;139600;;;;46;;;;;Em estoque
+247;Renault;Sandero;Hatch;2019;2020;Cinza;Flex;Manual;76711;QXI8J08;2026-05-10;35600;1800;37400;40900;;;;42;;;;;Em estoque
+248;Toyota;Yaris;Hatch;2023;2023;Preto;Flex;Automatico;34735;ZGQ7L71;2026-05-10;63600;1700;65300;75200;2026-06-08;73900;8600;29;A vista;Patricia Gomes;Diego Teixeira;Pinhais;Vendido
+249;Volkswagen;Polo;Hatch;2023;2024;Preto;Flex;Automatico;32434;RMF5M52;2026-05-16;58300;2600;60900;70500;;;;36;;;;;Em estoque
+250;Nissan;Versa;Sedan;2022;2022;Cinza;Flex;Manual;53621;KTE1E49;2026-05-18;56600;800;57400;70300;;;;34;;;;;Em estoque
+251;Jeep;Commander;SUV;2021;2021;Prata;Gasolina;Automatico;70295;BQB1V00;2026-05-18;121400;3400;124800;146600;2026-05-21;147900;23100;3;Consorcio;Fernanda Lima;Eduardo Rocha;Cascavel;Vendido
+252;Fiat;Cronos;Sedan;2026;2026;Cinza;Flex;Manual;1188;YNZ4T30;2026-05-19;76100;2600;78700;86100;;;;33;;;;;Em estoque
+253;Toyota;Corolla Cross;SUV;2020;2020;Branco;Diesel;Automatico;77731;TKP9I72;2026-05-20;91700;1400;93100;115900;;;;32;;;;;Em estoque
+254;Toyota;Hilux;Picape;2025;2026;Prata;Gasolina;Automatico;1646;RYB7R36;2026-05-23;245400;4000;249400;288900;;;;29;;;;;Em estoque
+255;Volkswagen;Virtus;Sedan;2024;2025;Branco;Gasolina;Manual;19737;ZER5M91;2026-05-29;77700;2100;79800;87400;2026-06-16;87500;7700;18;A vista;Roberto Alves;Eduardo Rodrigues;Sao Jose dos Pinhais;Vendido
+256;Nissan;Kicks;SUV;2018;2018;Vermelho;Flex;Manual;94648;ZYI0Z78;2026-05-30;51000;3200;54200;61300;;;;22;;;;;Em estoque
+257;Nissan;Frontier;Picape;2021;2021;Vermelho;Gasolina;Manual;61059;YVU6Q65;2026-05-31;142000;1500;143500;158800;;;;21;;;;;Em estoque
+258;Renault;Kwid;Hatch;2019;2019;Azul;Gasolina;Manual;77327;XED6V99;2026-06-01;26800;900;27700;31700;2026-06-09;30200;2500;8;Financiamento;Patricia Gomes;Vinicius Costa;Cascavel;Vendido
+259;Ford;Ka;Hatch;2022;2022;Vermelho;Flex;Manual;50209;KQO1V39;2026-06-02;32300;2500;34800;39100;;;;19;;;;;Em estoque
+260;Fiat;Pulse;SUV;2021;2021;Azul;Diesel;Automatico;52314;IXA5Z15;2026-06-04;62800;4300;67100;74100;;;;17;;;;;Em estoque

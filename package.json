@@ -1,0 +1,12 @@
+{
+  "name": "facilita-veiculos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site e painel de gestão da Facilita Veículos",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
