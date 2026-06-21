@@ -11,11 +11,30 @@ const path = require("path");
 const crypto = require("crypto");
 
 const PORT = process.env.PORT || 3000;
-const USER = process.env.DASH_USER || "facilita";
-const PASS = process.env.DASH_PASS || "troque-esta-senha";
 const SLUG = process.env.DASH_SLUG || "/dashboard";
-const SECRET = process.env.SESSION_SECRET || `${USER}:${PASS}:facilita-secret-2026`;
 const SESSAO_HORAS = 12; // validade do login
+
+// ---------- usuários ----------
+// Vários usuários: DASH_USERS="usuario1:senha1,usuario2:senha2,maria:senha3"
+// (também aceita DASH_USER + DASH_PASS para 1 usuário, por compatibilidade)
+function carregarUsuarios() {
+  const map = {};
+  if (process.env.DASH_USER) map[process.env.DASH_USER] = process.env.DASH_PASS || "";
+  (process.env.DASH_USERS || "").split(",").forEach((par) => {
+    const i = par.indexOf(":");
+    if (i > 0) {
+      const u = par.slice(0, i).trim();
+      const s = par.slice(i + 1).trim();
+      if (u) map[u] = s;
+    }
+  });
+  if (Object.keys(map).length === 0) map["facilita"] = "troque-esta-senha"; // padrão
+  return map;
+}
+const USERS = carregarUsuarios();
+const SECRET =
+  process.env.SESSION_SECRET ||
+  "facilita-secret-2026:" + Object.keys(USERS).sort().join(",");
 
 // arquivos públicos liberados (allowlist)
 const PUBLICOS = {
@@ -86,8 +105,9 @@ http
       req.on("data", (c) => { body += c; if (body.length > 1e4) req.destroy(); });
       req.on("end", () => {
         const p = new URLSearchParams(body);
-        if (p.get("usuario") === USER && p.get("senha") === PASS) {
-          const token = assinar({ exp: Date.now() + SESSAO_HORAS * 3600e3 });
+        const u = p.get("usuario"), s = p.get("senha");
+        if (u && Object.prototype.hasOwnProperty.call(USERS, u) && USERS[u] === s) {
+          const token = assinar({ u, exp: Date.now() + SESSAO_HORAS * 3600e3 });
           const cookie =
             `fv_session=${token}; HttpOnly; Path=/; SameSite=Lax; Max-Age=${SESSAO_HORAS * 3600}` +
             (https ? "; Secure" : "");

@@ -30,10 +30,14 @@ Isso regenera o `dashboard.html` com os dados embutidos.
 2. Acesse https://railway.app → **New Project** → **Deploy from GitHub repo** → escolha o repositório.
 3. O Railway detecta o Node automaticamente e roda `npm start`.
 4. Em **Variables**, defina (importante!):
-   - `DASH_USER` = usuário do painel (ex.: `facilita`)
-   - `DASH_PASS` = uma senha forte
+   - `DASH_USERS` = vários usuários separados por vírgula, no formato `usuario:senha`.
+     Ex.: `facilita:SenhaForte1,joao:SenhaJoao2,maria:SenhaMaria3`
+     (para 1 usuário só, pode usar `DASH_USER` + `DASH_PASS` no lugar)
    - `DASH_SLUG` = `/dashboard` (opcional, pode trocar o endereço do painel)
    - `SESSION_SECRET` = um texto aleatório longo (assina os cookies de sessão)
+
+   > Para **criar mais um usuário** depois, é só editar `DASH_USERS` no Railway
+   > adicionando `,novousuario:novasenha` no fim e salvar. O Railway reinicia sozinho.
 5. Em **Settings → Networking → Generate Domain** para receber a URL pública.
    - Landing: `https://SEU-APP.up.railway.app/`
    - Painel: `https://SEU-APP.up.railway.app/dashboard`
