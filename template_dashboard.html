@@ -306,8 +306,12 @@ const MESES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov'
 
 const css = k => getComputedStyle(document.documentElement).getPropertyValue(k).trim();
 const BRAND='#5ce635', BRAND_D='#2c9418', BRAND_B='#82f55c';
-// escala monocromática verde -> elegante p/ doughnuts
-const GREEN_SCALE = ['#82f55c','#5ce635','#3fc721','#2c9418','#1f6e12','#5f6b62','#3a4a3d','#9fe88a'];
+const ORANGE='#ff9f40';
+// paleta variada p/ diferenciar os dados (verde da marca como cor principal)
+const PALETA = ['#5ce635','#3b9eff','#ff9f40','#ffd34e','#b06bff','#2dd4bf','#ec6a9c','#ff6b6b','#9fe88a','#8aa0ff'];
+// versão translúcida da paleta (p/ preenchimento de barras)
+const PALETA_BG = PALETA.map(c=>c+'cc');
+const corPara = (arr)=>arr.map((_,i)=>PALETA[i%PALETA.length]);
 
 Chart.defaults.color = '#8a978d';
 Chart.defaults.font.family = "'Inter',sans-serif";
@@ -390,8 +394,8 @@ function render(){
   const labels = chaves.map(k=>{const[y,m]=k.split('-');return `${MESES[+m-1]}/${y.slice(2)}`;});
   novoChart('chMes',{type:'bar',data:{labels,datasets:[
     {label:'Faturamento',data:chaves.map(k=>porMes[k].f),backgroundColor:'rgba(92,230,53,.22)',hoverBackgroundColor:'rgba(92,230,53,.38)',borderColor:'rgba(92,230,53,.5)',borderWidth:1,borderRadius:6,order:2},
-    {label:'Lucro',type:'line',data:chaves.map(k=>porMes[k].l),borderColor:BRAND,backgroundColor:BRAND,tension:.4,borderWidth:2.5,pointRadius:0,pointHoverRadius:5,order:1,
-      fill:{target:'origin',above:'rgba(92,230,53,.06)'}}
+    {label:'Lucro',type:'line',data:chaves.map(k=>porMes[k].l),borderColor:ORANGE,backgroundColor:ORANGE,tension:.4,borderWidth:2.5,pointRadius:0,pointHoverRadius:5,order:1,
+      fill:{target:'origin',above:'rgba(255,159,64,.07)'}}
   ]},options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
     plugins:{legend:{position:'top',align:'end',labels:{boxWidth:10,boxHeight:10,usePointStyle:true,pointStyle:'circle',padding:16}},
       tooltip:{callbacks:{label:c=>'  '+c.dataset.label+': '+BRL(c.parsed.y)}}},
@@ -417,7 +421,7 @@ function render(){
   vendidos.forEach(d=>{const k=`${d.marca} ${d.modelo}`;mmap[k]=(mmap[k]||0)+1;});
   const topM=Object.entries(mmap).sort((a,b)=>b[1]-a[1]).slice(0,8);
   novoChart('chModelo',{type:'bar',data:{labels:topM.map(x=>x[0]),datasets:[{data:topM.map(x=>x[1]),
-    backgroundColor:topM.map((_,i)=>i===0?BRAND:'rgba(92,230,53,.35)'),hoverBackgroundColor:BRAND_B,borderRadius:6}]},
+    backgroundColor:corPara(topM),borderRadius:6}]},
     options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>'  '+c.parsed.x+' unidades'}}},
       scales:{x:{grid:{color:GRID},border:{display:false},ticks:{precision:0}},y:{grid:{display:false},border:{display:false}}}}});
 
@@ -426,7 +430,7 @@ function render(){
   vendidos.forEach(d=>cmap[d.categoria]=(cmap[d.categoria]||0)+1);
   const cat=Object.entries(cmap).sort((a,b)=>b[1]-a[1]);
   novoChart('chCategoria',{type:'doughnut',data:{labels:cat.map(x=>x[0]),datasets:[{data:cat.map(x=>x[1]),
-    backgroundColor:GREEN_SCALE,borderColor:'#111512',borderWidth:3,hoverOffset:6}]},
+    backgroundColor:PALETA,borderColor:'#111512',borderWidth:3,hoverOffset:6}]},
     options:{maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'right',labels:{boxWidth:9,boxHeight:9,usePointStyle:true,pointStyle:'circle',padding:11}}}}});
 
   // pagamento
@@ -434,7 +438,7 @@ function render(){
   vendidos.forEach(d=>pmap[d.forma_pagamento]=(pmap[d.forma_pagamento]||0)+1);
   const pag=Object.entries(pmap).sort((a,b)=>b[1]-a[1]);
   novoChart('chPagamento',{type:'doughnut',data:{labels:pag.map(x=>x[0]),datasets:[{data:pag.map(x=>x[1]),
-    backgroundColor:GREEN_SCALE,borderColor:'#111512',borderWidth:3,hoverOffset:6}]},
+    backgroundColor:PALETA,borderColor:'#111512',borderWidth:3,hoverOffset:6}]},
     options:{maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'right',labels:{boxWidth:9,boxHeight:9,usePointStyle:true,pointStyle:'circle',padding:9,font:{size:10.5}}}}}});
 
   // lucro por marca
@@ -442,7 +446,7 @@ function render(){
   vendidos.forEach(d=>lmap[d.marca]=(lmap[d.marca]||0)+d.lucro);
   const lm=Object.entries(lmap).sort((a,b)=>b[1]-a[1]);
   novoChart('chMarca',{type:'bar',data:{labels:lm.map(x=>x[0]),datasets:[{data:lm.map(x=>x[1]),
-    backgroundColor:'rgba(92,230,53,.4)',hoverBackgroundColor:BRAND,borderColor:'rgba(92,230,53,.55)',borderWidth:1,borderRadius:6}]},
+    backgroundColor:corPara(lm),borderRadius:6}]},
     options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>'  '+BRL(c.parsed.y)}}},
       scales:{x:{grid:{display:false},ticks:{maxRotation:0,autoSkip:false,font:{size:10}}},y:{grid:{color:GRID},border:{display:false},ticks:{callback:BRLk}}}}});
 
@@ -451,7 +455,7 @@ function render(){
   vendidos.forEach(d=>{if(d.cidade_cliente)cidmap[d.cidade_cliente]=(cidmap[d.cidade_cliente]||0)+1;});
   const cid=Object.entries(cidmap).sort((a,b)=>b[1]-a[1]).slice(0,8);
   novoChart('chCidade',{type:'bar',data:{labels:cid.map(x=>x[0]),datasets:[{data:cid.map(x=>x[1]),
-    backgroundColor:cid.map((_,i)=>i===0?BRAND:'rgba(92,230,53,.32)'),hoverBackgroundColor:BRAND_B,borderRadius:6}]},
+    backgroundColor:corPara(cid),borderRadius:6}]},
     options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>'  '+c.parsed.x+' vendas'}}},
       scales:{x:{grid:{color:GRID},border:{display:false},ticks:{precision:0}},y:{grid:{display:false},border:{display:false}}}}});
 
@@ -460,7 +464,7 @@ function render(){
   vendidos.forEach(d=>amap[d.ano_modelo]=(amap[d.ano_modelo]||0)+1);
   const anos=Object.keys(amap).map(Number).sort((a,b)=>a-b);
   novoChart('chAno',{type:'bar',data:{labels:anos,datasets:[{data:anos.map(a=>amap[a]),
-    backgroundColor:'rgba(92,230,53,.4)',hoverBackgroundColor:BRAND,borderColor:'rgba(92,230,53,.55)',borderWidth:1,borderRadius:6}]},
+    backgroundColor:anos.map((_,i)=>PALETA[i%PALETA.length]),borderRadius:6}]},
     options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>'  '+c.parsed.y+' vendidos'}}},
       scales:{x:{grid:{display:false}},y:{grid:{color:GRID},border:{display:false},ticks:{precision:0}}}}});
 
