@@ -133,6 +133,33 @@
   .car-price small{display:block;font-size:11px;color:var(--muted2);font-weight:400;font-family:'Inter'}
   .cars-foot{text-align:center;margin-top:36px}
 
+  /* instagram */
+  .ig-wrap{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:34px;}
+  .ig-top{display:flex;align-items:center;gap:18px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:24px;}
+  .ig-ava{width:64px;height:64px;border-radius:50%;background:#000;display:flex;align-items:center;justify-content:center;flex-shrink:0;
+          box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--brand),0 0 22px -3px var(--brand-glow);}
+  .ig-ava svg{width:32px;height:32px;filter:drop-shadow(0 0 6px rgba(92,230,53,.6));}
+  .ig-info{flex:1;min-width:180px;}
+  .ig-info h3{font-size:18px;font-weight:700;}
+  .ig-info .h{color:var(--muted);font-size:13.5px;margin-top:2px;}
+  .ig-stats{display:flex;gap:22px;margin-top:10px;}
+  .ig-stats b{font-family:'Space Grotesk';font-size:16px;color:var(--txt);}
+  .ig-stats span{font-size:12px;color:var(--muted);display:block;}
+  .ig-follow{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#06210a;font-family:'Space Grotesk';
+             font-weight:700;font-size:14px;padding:11px 20px;border-radius:11px;transition:.18s;}
+  .ig-follow:hover{background:var(--brand-bright);box-shadow:0 8px 26px -8px var(--brand-glow);transform:translateY(-2px);}
+  .ig-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;}
+  @media(max-width:860px){.ig-grid{grid-template-columns:repeat(3,1fr)}}
+  .ig-cell{position:relative;aspect-ratio:1;border-radius:12px;overflow:hidden;display:block;background:var(--panel2);}
+  .ig-cell img{width:100%;height:100%;object-fit:cover;transition:transform .35s;}
+  .ig-cell:hover img{transform:scale(1.08);}
+  .ig-cell::after{content:"";position:absolute;inset:0;background:rgba(8,10,9,0);transition:.2s;display:flex;}
+  .ig-cell:hover::after{background:rgba(8,10,9,.45);}
+  .ig-cell .ig-ic{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:.2s;z-index:2;color:#fff}
+  .ig-cell:hover .ig-ic{opacity:1}
+  .ig-cell .ig-ic svg{width:30px;height:30px}
+  .ig-note{text-align:center;color:var(--muted2);font-size:12px;margin-top:18px;}
+
   /* localização / cta */
   .local{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
   @media(max-width:860px){.local{grid-template-columns:1fr}}
@@ -187,6 +214,7 @@
       <a href="#diferenciais">Diferenciais</a>
       <a href="#financiamento">Financiamento</a>
       <a href="#estoque">Estoque</a>
+      <a href="#instagram">Instagram</a>
       <a href="#contato">Contato</a>
       <a class="btn btn-primary" href="https://wa.me/555521205556" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.737-.979zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -308,6 +336,39 @@
   </div>
 </section>
 
+<!-- INSTAGRAM -->
+<section id="instagram">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker">@facilitaveiculos_rs</span>
+      <h2>Acompanhe no Instagram</h2>
+      <p>Estoque sempre atualizado, novidades toda semana e os bastidores da loja. Siga e fique por dentro!</p>
+    </div>
+    <div class="ig-wrap reveal">
+      <div class="ig-top">
+        <span class="ig-ava">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M40 16 H84 L72.5 37 H49 L45 45 H66 L55.5 64 H34 L23.5 84 H11 Z" fill="#5ce635"/></svg>
+        </span>
+        <div class="ig-info">
+          <h3>Facilita Veículos</h3>
+          <div class="h">@facilitaveiculos_rs · Compra de carro em Santa Rosa/RS</div>
+          <div class="ig-stats">
+            <div><b>Seminovos</b><span>selecionados</span></div>
+            <div><b>60x</b><span>financiamento</span></div>
+            <div><b>Troca</b><span>aceitamos usado</span></div>
+          </div>
+        </div>
+        <a class="ig-follow" href="https://instagram.com/facilitaveiculos_rs" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          Seguir
+        </a>
+      </div>
+      <div class="ig-grid" id="igGrid"></div>
+      <div class="ig-note">Feed ilustrativo · clique para abrir o Instagram oficial</div>
+    </div>
+  </div>
+</section>
+
 <!-- LOCALIZAÇÃO -->
 <section id="contato">
   <div class="wrap">
@@ -410,6 +471,13 @@
         <div class="car-price">${c.preco}<small>ou financiado em até 60x</small></div>
       </div>
     </div>`).join('');
+
+  // grid do instagram (ilustrativo — trocar por widget ao vivo ou posts reais)
+  const igIcon = '<span class="ig-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></span>';
+  document.getElementById('igGrid').innerHTML = ESTOQUE.map(c=>`
+    <a class="ig-cell" href="https://instagram.com/facilitaveiculos_rs" target="_blank" rel="noopener" aria-label="Ver no Instagram">
+      <img src="${c.img}" alt="${c.nome}" loading="lazy">${igIcon}
+    </a>`).join('');
 
   // reveal on scroll
   const io = new IntersectionObserver((es)=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }),{threshold:.12});
